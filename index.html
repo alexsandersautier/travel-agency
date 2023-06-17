@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travels Already</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/icon.svg">
+</head>
+<body>
+    <header>
+        <img src="imagens/local-logo.png" alt="" class="text-left">
+        <h1>Travels Already</h1>
+    </header>
+    <main>
+        <section class="form">
+            <div class="form-into">
+                <h3 id="title"><img id="plane" src="imagens/aviao.png" alt="">  Request a quote</h3>
+                <form action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/" method="post">
+                    <h3 id="form-title">Enter your data</h3>
+                    <label for="">Name</label>
+                    <input class="input" type="text" placeholder="Your full name" required>
+                    <label for="">Email</label>
+                    <input class="input" type="email" placeholder="Your full email" required>
+                    <label for="">Cellphone</label>
+                    <input class="input" type="tel" placeholder="Your phone number" required>
+                    <div class="dates">
+                        <div class="column">
+                            <label for="">Departure date</label>
+                            <input class="input half" type="date" name="" id="">
+                            <label for="">Origin</label>
+                            <select class="input half" name="" id="">
+                                <option value="">Starting from</option>
+                            </select>
+                        </div>
+                        <div class="column">
+                            <label class="left-lbl">Return date</label>
+                            <input class="input half left" type="date" name="" id="">
+                            <label class="left-lbl">Destiny</label>
+                            <select class="input half left" name="" id="">
+                                <option value="">Going to</option>
+                            </select>
+                        </div>
+                    </div>
+                    <label for="">Bedroom with children's bed</label>
+                    <div id="divlabel">
+                        <label class="lblRadio" for="radioYes">
+                            Yes
+                            <input type="radio" name="bed" id="radioYes" value="sim">
+                        </label>
+                        <label class="lblRadio" for="radioNo">
+                            No
+                            <input type="radio" name="bed" id="radioNo" value="nao">
+                        </label>
+                    </div>
+                    <label for="">Hosting preferences</label>
+                    <div id="divlabel">
+                        <label class="lblRadio" for="Pool">
+                            Pool
+                            <input type="checkbox" name="preferences[]" id="Pool" value="sim">
+                        </label>
+                        <label class="lblRadio" for="wifi">
+                            Wi-Fi
+                            <input type="checkbox" name="preferences[]" id="wifi" value="nao">
+                        </label>
+                        <label class="lblRadio" for="garage">
+                            Garage
+                            <input type="checkbox" name="preferences[]" id="garage" value="nao">
+                        </label>
+                        <label class="lblRadio" for="suite">
+                            Suite
+                            <input type="checkbox" name="preferences[]" id="suite" value="nao">
+                        </label>
+                    </div>
+                    <button class="btn" type="submit">Request quote</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
