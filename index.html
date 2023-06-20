@@ -19,26 +19,28 @@
                 <form action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/" method="post">
                     <h3 id="form-title">Enter your data</h3>
                     <label for="">Name</label>
-                    <input class="input" type="text" placeholder="Your full name" required>
+                    <input name="nome" class="input" type="text" placeholder="Your full name" required>
                     <label for="">Email</label>
-                    <input class="input" type="email" placeholder="Your full email" required>
+                    <input name="email" class="input" type="email" placeholder="Your full email" required>
                     <label for="">Cellphone</label>
-                    <input class="input" type="tel" placeholder="Your phone number" required>
+                    <input name="celular" class="input" type="tel" placeholder="Your phone number" required>
                     <div class="dates">
                         <div class="column">
                             <label for="">Departure date</label>
-                            <input class="input half" type="date" name="" id="">
+                            <input name="partida" class="input half" type="date" name="" id="">
                             <label for="">Origin</label>
-                            <select class="input half" name="" id="">
+                            <select name="origem" class="input half" id="">
                                 <option value="">Starting from</option>
+                                <option value="XAP">Chapecó</option>
                             </select>
                         </div>
                         <div class="column">
                             <label class="left-lbl">Return date</label>
-                            <input class="input half left" type="date" name="" id="">
+                            <input name="chegada" class="input half left" type="date" name="" id="">
                             <label class="left-lbl">Destiny</label>
-                            <select class="input half left" name="" id="">
+                            <select class="input half left" name="destino" id="">
                                 <option value="">Going to</option>
+                                <option value="LIS">Lisboa</option>
                             </select>
                         </div>
                     </div>
@@ -46,34 +48,60 @@
                     <div id="divlabel">
                         <label class="lblRadio" for="radioYes">
                             Yes
-                            <input type="radio" name="bed" id="radioYes" value="sim">
+                            <input type="radio" name="infantil" id="radioYes" value="sim">
                         </label>
                         <label class="lblRadio" for="radioNo">
                             No
-                            <input type="radio" name="bed" id="radioNo" value="nao">
+                            <input type="radio" name="infantil" id="radioNo" value="nao">
                         </label>
                     </div>
                     <label for="">Hosting preferences</label>
                     <div id="divlabel">
                         <label class="lblRadio" for="Pool">
                             Pool
-                            <input type="checkbox" name="preferences[]" id="Pool" value="sim">
+                            <input type="checkbox" name="preferencias[]" id="Pool" value="Piscina">
                         </label>
                         <label class="lblRadio" for="wifi">
                             Wi-Fi
-                            <input type="checkbox" name="preferences[]" id="wifi" value="nao">
+                            <input type="checkbox" name="preferencias[]" id="wifi" value="Wifi">
                         </label>
                         <label class="lblRadio" for="garage">
                             Garage
-                            <input type="checkbox" name="preferences[]" id="garage" value="nao">
+                            <input type="checkbox" name="preferencias[]" id="garage" value="Garagem">
                         </label>
                         <label class="lblRadio" for="suite">
                             Suite
-                            <input type="checkbox" name="preferences[]" id="suite" value="nao">
+                            <input type="checkbox" name="preferencias[]" id="suite" value="Suíte">
                         </label>
                     </div>
                     <button class="btn" type="submit">Request quote</button>
                 </form>
+            </div>
+        </section>
+        <section class="container">
+            <div>
+                <h3>Offers</h3>
+                <p>Up to <strong>50%</strong> off.</p>
+            </div>
+            <div class="columns">
+                <div>
+                    <img width="330px" src="imagens/rio.jpg" alt="">
+                </div>
+                <div>
+                    <img width="100px" src="imagens/manaus.jpg" alt="">
+                </div>
+                <div>
+                    <img width="100px" src="imagens/saopaulo.jpg" alt="">
+                </div>
+                <div>
+                    <img width="100px" src="imagens/niteroi.jpg" alt="">
+                </div>
+                <div>
+                    <img width="100px" src="imagens/maranhao.jpg" alt="">
+                </div>
+            </div>
+            <div>
+                zuleide
             </div>
         </section>
     </main>

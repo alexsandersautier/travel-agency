@@ -110,3 +110,15 @@ select{
 .btn:hover{
     background-color: #300570;
 }
+/* --------------------------------------------------------------- */
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.columns{
+    display: grid;
+    grid-template-columns: 340px 100px;
+    border: 1px solid #5F15CE;
+}
