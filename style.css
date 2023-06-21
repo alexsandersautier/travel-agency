@@ -119,6 +119,73 @@ select{
 
 .columns{
     display: grid;
-    grid-template-columns: 340px 100px;
-    border: 1px solid #5F15CE;
+    grid-template-columns: 460px 235px 235px;
+    grid-template-rows: 338px;
+}
+.col2{
+    display: grid;
+    grid-template-columns: 460px 460px;
+}
+.card-p{
+    background-image: url(imagens/rio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.imgP{
+    padding: 5px 0px 5px 5px;
+    width: 98.9%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.card-manaus{
+    background-image: url(imagens/manaus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96%;
+    height: 163.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 1px;
+    margin-bottom: 7px;
+}
+.card-rjponte{
+    background-image: url(imagens/niteroi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96%;
+    height: 163.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 7px;
+}
+.card-sp{
+    background-image: url(imagens/saopaulo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96%;
+    height: 163.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 7px;
+
+}
+.card-maranhao{
+    background-image: url(imagens/maranhao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96%;
+    height: 163.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 7px;
+
 }
