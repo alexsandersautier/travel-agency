@@ -39,7 +39,7 @@ header img{
 }
 .form-into{
    margin: auto;
-   width: 70%;
+   width: 73%;
    background-color: #fff;
    height: 90%;
 }
@@ -115,6 +115,7 @@ select{
     display: grid;
     justify-content: center;
     align-items: center;
+    background-color: #dcdcdc;
 }
 
 .columns{
@@ -188,4 +189,36 @@ select{
     justify-content: flex-end;
     margin-top: 7px;
 
+}
+.card2{
+    background-color: #fff;
+    width: 91.5%;
+    margin-top: -5px;
+    padding: 10px 20px 10px 15px;
+    margin-bottom: 20px;
+}
+span{
+    font-weight: 800;
+}
+.card2 p{
+    margin-top: 5px;
+}
+/* ------------------------------------------------- */
+footer{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    background-color: #5F15CE;
+}
+footer div{
+    margin: auto;
+    color: #fff;
+    padding-bottom: 8px;
+}
+footer div h4{
+    margin: 10px 0px;
+}
+footer div div p{
+    padding: 2px;
 }
