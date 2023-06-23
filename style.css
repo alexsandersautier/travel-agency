@@ -2,7 +2,7 @@
 :root{
     --default_color:#5F15CE;
 }
-
+/* computer layout */
 *{
     margin: 0;
     padding: 0;
@@ -203,6 +203,9 @@ span{
 .card2 p{
     margin-top: 5px;
 }
+.imgCol{
+    width: 455px;
+}
 /* ------------------------------------------------- */
 footer{
     display: grid;
@@ -221,4 +224,48 @@ footer div h4{
 }
 footer div div p{
     padding: 2px;
+}
+/* util 540px */
+@media (max-width: 540px ) {
+    .lblRadio{
+        padding-right: 25px;
+    }
+    .btn{
+        width: 100%;
+    }
+    .card-p{
+        width: 96%;
+    }
+    .card-manaus{
+        margin-top: 10px;
+    }
+    .card-sp{
+        margin-top: 5px;
+    }
+    div > h3{
+        margin-top: 10px;
+    }
+    div > p{
+        margin-bottom: 10px;
+    }
+    .columns{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .col2{
+        display: grid;
+        grid-template-columns: auto;
+    }   
+    .imgCol{
+        width: 390px;
+    }
+    .card2{
+        width: 88%;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr; /* Define uma única coluna */
+        width: 100%;
+    }
+
 }
