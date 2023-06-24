@@ -269,3 +269,51 @@ footer div div p{
     }
 
 }
+@media (max-width:768px){
+    .form-into{
+        width: 90%;
+    }
+    .btn{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .columns{
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        gap: 10px;
+    }
+    div > h3{
+        margin-top: 10px;
+    }
+    div > p{
+        margin-bottom: 10px;
+        
+    }
+    .columns div:first-child{
+        height: 163px;
+        width: 436px;
+    }
+    .columns div > p{
+        margin-bottom: -1px;
+    }
+    .col2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }   
+    .card-p{
+        width: 96%;
+        height: 163.5px;
+    }
+    .col2 div{
+        width: 400px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr; /* Define uma única coluna */
+        width: 100%;
+    }
+
+}
